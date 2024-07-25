@@ -1,0 +1,229 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family:  "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+body{
+     width: 100%;
+}
+.container{
+     max-width: 1200px;
+     margin: 0px auto;
+}
+.top{
+     background-color: #000;
+     padding: 5px;
+}
+.top_container{
+     display: flex;
+     align-items: center; 
+     justify-content: flex-end;
+     gap: 20px;
+}
+a{
+     text-decoration: none;
+}
+.top_container a{
+     color: #e1dfdf;
+     font-size: 14px;
+     line-height: 24px;
+     font-weight: 400;
+     transition: all 0.4s;
+}
+.top_container a:hover{
+     text-decoration: underline;
+}
+.header{
+     width: 100%;
+     background-color: hsl(217 100% 97% / 1);
+}
+.header_container{
+     display: flex;
+     justify-content: space-between;
+     padding: 10px;
+     align-items: center;
+}
+.logo{
+     cursor: pointer;
+     width: 50px;
+     height: 50px;
+     border-radius: 10px;
+     color: #e1dfdf;
+     font-size: 30px;
+     font-weight: 600;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: hsl(212 100% 51% / 1);
+}
+ul{
+     display: flex;
+     list-style: none;
+}
+ul li a{
+     color: #000;
+     transition: all 0.4s;
+     padding: 10px 20px;
+     border-radius: 10px;
+}
+ul li:hover a{
+     background-color: #000;
+     color: hsl(217 100% 97% / 1);
+}
+.icons{
+     display: flex;
+     /* gap: 5px; */
+}
+.icons *{
+     padding: 15px;
+     font-size: 18px;
+}
+.icons #shop{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 22px;
+     border-radius: 50%;
+}
+#shop:hover{
+     background-color: #e1dfdf;
+
+}
+/* main qismi */
+
+.main_container{
+     box-sizing: border-box;
+     padding: 20px;
+     border-radius: 10px;
+     margin-top: 80px;
+     display: flex;
+     gap: 15px;
+     /* align-items: center; */
+     justify-content: space-between;
+     background-color: hsl(217 100% 97% / 1);
+}
+.main_container .box{
+     width: 25%;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: space-between; */
+     gap: 50px;
+}
+.box .box-top p{
+     font-size: 14px;
+     margin-bottom: 10px;
+     font-weight: 400;
+}
+.box-top  input{
+     width: 100%;
+     padding: 5px 10px;
+     border-radius: 10px;
+     font-size: 18px;
+     line-height: 22px;
+     border: 1px solid rgb(206, 204, 204);
+     outline: none;
+}
+.box-botton .price{
+     display: flex;
+     font-size: 14px;
+     justify-content: space-between;
+}
+.box-botton input{
+     width: 100%;
+     margin: 10px 0;
+}
+.price:nth-child(3){
+     font-size: 14px;
+     font-weight: 700;
+}
+
+select{
+     width: 100%;
+     padding: 5px 10px;
+     border-radius: 10px;
+     font-size: 18px;
+     line-height: 22px;
+     border: 1px solid rgb(206, 204, 204);
+     outline: none;
+}         
+.box-top  input:focus, select:focus{
+         outline: 2px  double rgb(206, 204, 204);
+}
+
+.box-botton .prices{
+          display: flex;
+          font-size: 14px;
+          justify-content: center;
+}
+.box-botton input[type="checkbox"]{
+     border-radius: 10px;
+     cursor: pointer;
+}
+
+.box-botton .btn{
+     cursor: pointer;
+     width: 100%;
+     box-sizing: border-box;
+     padding: 5px;
+     border-radius: 10px;
+     border: none;
+     color: hsl(217 100% 97% / 1);
+     font-weight: 700;
+     font-size: 14px;
+     transition: all 0.4s;
+}
+.btn1{         
+     background-color: hsl(212 100% 51% / 1);     
+}
+.btn2{
+     background-color: #e206a4;
+}
+.btn1:hover{
+     background-color: hsl(212, 79%, 37%);
+}
+.btn2:hover{
+     background-color: #831263e2;
+}
+
+.wrapper_container{
+     display: flex;
+     flex-wrap: wrap;
+     /* flex-direction: row; */
+}
+
+.wrapper{
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap ;
+     justify-content: space-between;
+     margin-top: 100px;
+}
+.card{
+     display: flex;
+     flex-direction: column;
+     width: 30%;
+     padding: 10px;
+     gap: 25px;
+     box-shadow: 0px 1px 15px gray;
+     border-radius: 15px;
+     margin-bottom: 50px;
+}
+.card img{
+     width: 320px;
+     height: 12rem;  
+     border-radius: 10px;  
+}
+.info{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 15px;
+}
+.info h3{
+     font-weight: 600;
+}
+p{
+     margin-bottom: 30px;
+}
+

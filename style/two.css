@@ -1,0 +1,87 @@
+ul li:nth-child(3) a{
+     color: hsl(217 100% 97% / 1);
+     background-color: black;
+}
+
+.h2{
+     margin-top: 100px;
+     margin-bottom: 50px;
+     display: flex;
+     align-items: center;
+     gap: 5px;
+}
+.h2 h2{
+     font-weight: 400;
+}
+.h2 span{
+     transition: all 0.4s;
+}
+.h2 span:hover{
+     cursor: pointer;
+    text-decoration: underline;
+}
+.card_in{
+     display: flex;
+     gap: 50px;
+     padding-bottom: 100px;
+}
+.card_in img{
+     width: 512px;
+     height: 384px;
+     border-radius: 10px;
+}
+.card_in .info_text h1{
+     font-size: 35px;
+     /* color: aqua; */
+     font-weight: 900;
+}
+.card_in .info_text h2{
+     color: hsl(216, 2%, 58%);
+     margin-bottom: 30px;
+     margin-top: 30px;
+}
+.info_text h3{
+     margin-bottom: 30px;
+}
+.info_text p{
+     line-height: 34px;
+}
+
+.info_text .colors{
+     padding: 10px 0 25px;
+     display: flex;
+     gap: 10px;
+     align-items: center;
+}
+.colors .red{
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background-color: red;
+}
+.colors .blue{
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background-color: blue;
+}
+#p{
+     line-height: 20px;
+     margin-bottom: 10px;
+}
+
+.info_text select{
+     padding: 10px;
+     width: 50%;
+     display: block;
+}
+.info_text .btn-two{
+     padding: 15px ;
+     background-color: rgb(37, 37, 108);
+     color: #fff;
+     border-radius: 11px;
+     font-size: 18px;
+     border: none ;
+     line-height: 25px;
+    margin-top: 15px; 
+}

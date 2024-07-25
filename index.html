@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Comfy Store</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+     <div class="top">
+          <div class="container top_container">
+               <a href="#">Sign in / Guest</a>
+               <a href="#">Create Account</a>
+          </div>
+     </div>
+     <div class="header">
+          <div class="container header_container">
+               <div class="logo">
+                    C
+               </div>
+               <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Cart</a></li>
+               </ul>
+               <div class="icons">
+                    <i class="fa-solid fa-moon"></i>
+                    <i id="shop" class="fa-solid fa-cart-shopping"></i>
+               </div>
+ 
+          </div>
+     </div>
+     <div class="main">
+          <div class="container main_container">
+               <div class="box">
+                    <div class="box-top">
+                         <p>Search Product</p>
+                         <input type="text" >
+                    </div>
+                    <div class="box-botton">
+                         <div class="price">
+                              <p>Select Price</p>
+                              <p>$ 1.000.00</p>
+                         </div>
+                         <input type="range" >
+                         <div class="price">
+                              <p>0</p>
+                              <p>Max: $ 1.000.00</p>
+                         </div>
+                    </div>
+               </div>
+               <div class="box">
+                    <div class="box-top">
+                         <p>Search Category</p>
+                         <select id="select">
+                              <option value="all">all</option>
+                              <option value="all">Tables</option>
+                              <option value="all">Chairs</option>
+                              <option value="all">Kids</option>
+                              <option value="all">Sofas</option>
+                              <option value="all">Beds</option>
+                         </select>
+                    </div>
+                    <div class="box-botton">
+                         <div class="prices">
+                              <p>Free Shipping</p>
+                         </div>
+                         <input type="checkbox" >
+                    </div>
+               </div>
+               <div class="box">
+                    <div class="box-top">
+                         <p>Search Company</p>
+                         <select id="select">
+                              <option value="all">all</option>
+                              <option value="all">Modenza</option>
+                              <option value="all">Luxora</option>
+                              <option value="all">Artifex</option>
+                              <option value="all">Comfora</option>
+                              <option value="all">Homestead</option>
+                         </select>
+                    </div>
+                    <div class="box-botton">
+                         <button class="btn1 btn">SEARCH</button>
+                    </div>
+               </div>
+               
+               <div class="box">
+                    <div class="box-top">
+                         <p>Sort Buy</p>
+                         <select id="select">
+                              <option value="a-z">a-z</option>
+                              <option value="all">z-a</option>
+                              <option value="all">high</option>
+                              <option value="all">low</option>
+                         </select>
+                    </div>
+                    <div class="box-botton">
+                         <button class="btn2 btn">RESET</button>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <div class="container wrapper_container">
+          <div class="wrapper" id="wrapper">
+              
+          </div>
+     </div>
+     <script src="./js/index.js"></script>
+</body>
+</html>

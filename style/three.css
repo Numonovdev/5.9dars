@@ -1,0 +1,64 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ .card-three{
+     max-width: 1200px;
+     margin: 0 auto;
+     margin-top: 50px;
+ }
+ .card-three h1{
+     font-size: 50px;
+     margin-bottom: 60px;
+     border-bottom: 1px solid rgb(138, 128, 128);
+     padding-bottom: 20px;
+ }
+ .card-three-info{
+     display: flex;
+     justify-content: space-between;
+ }
+ .card-three-info img{
+     border-radius: 10px;
+ }
+ .three-block {
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+ }
+ .three-block h5{
+     color: rgb(158, 189, 189);
+     
+ }
+ .three-block a{
+     text-decoration: none;
+ }
+ .three-box{
+     width: 300px;
+     background-color: #F0F6FF;
+     padding: 15px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     border-radius: 10px;
+ }
+ .three-box h5{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border-bottom: 1px solid black;
+     padding-bottom: 5px;
+ }
+ .btn{
+     position: relative;
+     display: block;
+     top: 30px;
+     left: 900px;
+     width: 300px;
+     height: 50px;
+     background-color: blue;
+     border: none;
+     cursor: pointer;
+     color: #fff;
+     border-radius: 10px;
+ }
